@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
+title: 星雨晴空
+subtitle: 张杰的随笔技术博客
+description: 在工作生活中，会不断的学习各种新的概念、领域、技术，然后把它记录下来，避免遗忘，方便需要的时候，再次查阅。
+keywords: 技术博客,安卓,java
 author: zjiecode
 language:
-timezone:
+timezone: Asia/Chongqing
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zjiecode.com
+url: https://zjiecode.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
