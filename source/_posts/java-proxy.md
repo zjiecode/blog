@@ -204,6 +204,10 @@ public class Main {
     - CGLib的代理，是继承目标对象，生成了一个新的类，然后来实现代理，这样，在内存中就是有代理对象，没有目标对象了，使用的是直接集成的方式
 - 生成代理类是在运行时，有别于`javapoet`在编译时生成类。
 
+# 学习源码
+纸上谈来终觉浅，绝知此事要躬行。
+文中提到的源代码，你都可以参考：
+[https://github.com/zjiecode/learn-java/tree/feature/java-proxy](https://github.com/zjiecode/learn-java/tree/feature/java-proxy)
 
 # 参考资料
 > https://blog.csdn.net/danchu/article/details/70238002
