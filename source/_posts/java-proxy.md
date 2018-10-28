@@ -81,18 +81,6 @@ public class Main {
     }
 }
 ```
-运行的结果如下：
-public class Main {
-    public static void main(String[] args) {
-        Apple apple=new Apple();//原始的苹果
-        Banana banana=new Banana();//原始的香蕉
-
-        PeelFruitProxy peelApple=new PeelFruitProxy(apple);//代理,添加去皮功能
-        PeelFruitProxy peelBanana=new PeelFruitProxy(banana);//代理,添加去皮功能
-        System.out.println(peelApple.getName());
-        System.out.println(peelBanana.getName());
-    }
-}
 {% asset_img proxy_1_run.png 代理 %}
 
 以上就是Java的静态代理，简单点说，就是把原来的目标对象包一层，加入新东西再去调用目标本身。
